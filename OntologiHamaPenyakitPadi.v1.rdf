@@ -1,0 +1,957 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ay/ontologies/2022/7/croppestdisease#"
+     xml:base="http://www.semanticweb.org/ay/ontologies/2022/7/croppestdisease"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#abstract"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolBiologis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolBiologis">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Biologis"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolBiologis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolKultural -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolKultural">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kultural"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolKultural"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolTerintegrasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolTerintegrasi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kontrol_Terintegrasi"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanKontrolTerintegrasi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanPerawatanPenyakit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanPerawatanPenyakit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanPestisida -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanPestisida">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pestisida"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#diberikanPestisida"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#memilikiGejala -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#memilikiGejala">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#memilikiGejala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPatogen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPatogen">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPatogen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPenyakit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPenyakit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Besar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Helaian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Merah"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Blast_Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Akar_Batang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Batang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Biji_Helaian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Buah"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir_Tepung"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Pangkal_Batang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Cendawan_Charcoal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Fusarium"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Gulma_Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Upih"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Helaian_Merah"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Jantung_Bakteri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Akar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Gugur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Hampa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Panjang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Keriput_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Klorosis_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Cekaman_Suhu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Helaian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tertular"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tungro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Akar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Bakteri"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Lelah_Tanah"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Mottle_Strip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Patah_Batang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Batang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Biji"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Bulir"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Malai"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Panjang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Tangkai"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Kuning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Akar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Daun"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Serpihan_Bulir"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Tungro"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Ulat_Grayak"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terkenaPenyakit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terserangHama -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terserangHama">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama_Padi"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#terserangHama"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Biologis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Biologis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama"/>
+        <rdfs:abstract xml:lang="id">Pengendalian hayati atau biokontrol adalah suatu cara pengendalian hama, seperti serangga, tungau, gulma, dan penyakit tanaman, dengan menggunakan organisme lain. Itu bergantung pada predasi, parasitisme, herbivora, atau mekanisme alami lainnya, tetapi biasanya juga melibatkan peran manajemen manusia yang aktif. Ini dapat menjadi komponen penting dari program pengendalian hama terpadu (PHT). Ada tiga strategi dasar untuk pengendalian hama biologis: klasik (impor), di mana musuh alami hama diperkenalkan dengan harapan mencapai pengendalian; induktif (augmentasi), di mana populasi besar musuh alami diberikan untuk pengendalian hama secara cepat; dan inokulatif (konservasi), di mana tindakan diambil untuk memelihara musuh alami melalui penanaman kembali secara teratur. Musuh alami hama serangga, juga dikenal sebagai agen kontrol biologis, termasuk predator, parasitoid, patogen, dan pesaing. Agen pengendali hayati penyakit tanaman paling sering disebut sebagai antagonis. Agen pengendalian hayati gulma meliputi predator benih, herbivora, dan patogen tanaman. Pengendalian hayati dapat memiliki efek samping pada keanekaragaman hayati melalui serangan terhadap spesies non-target melalui salah satu mekanisme di atas, terutama ketika suatu spesies diperkenalkan tanpa pemahaman menyeluruh tentang konsekuensi yang mungkin terjadi.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Biologis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pestisida"/>
+        <rdfs:abstract>Fungisida adalah bahan kimia yang digunakan untuk mengendalikan atau membunuh jamur penyebab penyakit pada tanaman. Fungisida bekerja dengan menghambat pertumbuhan, merusak struktur sel, atau mengganggu proses biokimia dalam jamur patogen. Penggunaan fungisida harus dilakukan dengan hati-hati, mengikuti petunjuk penggunaan yang tepat, dan memperhatikan keamanan serta dampak lingkungan yang mungkin timbul.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala">
+        <rdfs:abstract xml:lang="id">Gejala hama dan penyakit tanaman merujuk pada perubahan fisik atau fisiologis yang terjadi pada tanaman sebagai respons terhadap serangan organisme atau patogen, seperti serangga hama atau jamur penyebab penyakit. Gejala ini dapat berupa perubahan warna, pembusukan, deformasi, penurunan pertumbuhan, atau kerontokan bagian tanaman. Identifikasi gejala ini penting untuk diagnosis dan pengendalian yang tepat terhadap hama dan penyakit tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama">
+        <rdfs:abstract xml:lang="id">Hama tanaman adalah organisme yang menyebabkan kerusakan atau gangguan pada tanaman baik secara langsung maupun tidak langsung. Mereka dapat berupa serangga, nematoda, hewan pengerat, atau organisme lain yang memakan, menghisap, atau merusak bagian tanaman seperti daun, batang, akar, atau buah. Hama tanaman dapat mengurangi produktivitas, mengubah struktur tanaman, menyebabkan penyakit, atau bahkan menyebabkan kematian tanaman. Pengendalian hama tanaman melibatkan penggunaan metode terpadu yang meliputi pengendalian hayati, penggunaan pestisida, penggunaan varietas tahan hama, dan praktik budidaya yang baik.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama_Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama_Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama"/>
+        <rdfs:abstract xml:lang="id">Hama padi adalah organisme yang menyebabkan kerusakan atau gangguan pada tanaman padi secara langsung maupun tidak langsung. Hama-hama padi umumnya meliputi serangga seperti wereng, penggerek batang, penggerek tongkol, dan ulat daun padi. Serangan hama padi dapat mengurangi hasil panen, merusak bagian tanaman seperti daun, batang, malai, atau biji, dan mempengaruhi kualitas gabah.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Hama_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kontrol_Terintegrasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kontrol_Terintegrasi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama"/>
+        <rdfs:abstract>Pengendalian hama terpadu adalah pendekatan berbasis luas yang mengintegrasikan praktik kimia dan non-kimia untuk pengendalian hama secara ekonomis. Pengendalian hama ini bertujuan untuk menekan populasi hama di bawah Economy Injury Level (EIL). Organisasi Pangan dan Pertanian PBB mendefinisikan IPM sebagai &quot;pertimbangan cermat dari semua teknik pengendalian hama yang tersedia dan integrasi berikutnya dari langkah-langkah yang tepat yang mencegah perkembangan populasi hama dan menjaga pestisida dan intervensi lain ke tingkat yang dibenarkan secara ekonomi dan mengurangi atau meminimalkan risiko terhadap kesehatan manusia dan lingkungan PHT menekankan pertumbuhan tanaman yang sehat dengan kemungkinan gangguan paling kecil terhadap agroekosistem dan mendorong mekanisme pengendalian hama alami.&quot;</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kontrol_Terintegrasi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kultural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kultural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama"/>
+        <rdfs:abstract>Pengendalian hama budaya mengacu pada manipulasi sistem produksi tanaman atau praktik budaya untuk mengurangi atau menghilangkan populasi hama. Praktik pengendalian budaya dapat berkisar dari konsep sederhana seperti menyesuaikan tanggal penanaman untuk menghindari serangan hama hingga pendekatan pertanian yang lebih kompleks yang mungkin mencakup penyesuaian pengaturan spasial dan temporal agroekosistem. Praktik budaya dapat menjadi rumit untuk diterapkan, terutama yang bergantung pada interaksi berbagai spesies tanaman dan artropoda.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Kultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Tanaman"/>
+        <rdfs:abstract>Padi adalah benih dari spesies rumput Oryza sativa (beras Asia) atau lebih jarang Oryza glaberrima (beras Afrika). Nama padi liar biasanya digunakan untuk spesies dari genera Zizania dan Porteresia, baik liar maupun peliharaan, meskipun istilah ini juga dapat digunakan untuk varietas Oryza primitif atau tidak dibudidayakan. Sebagai biji-bijian sereal, beras domestik adalah makanan pokok yang paling banyak dikonsumsi oleh lebih dari setengah populasi manusia di dunia, terutama di Asia dan Afrika. Ini adalah komoditas pertanian dengan produksi tertinggi ketiga di dunia, setelah tebu dan jagung. Karena sebagian besar tanaman tebu dan jagung digunakan untuk tujuan selain konsumsi manusia, beras merupakan tanaman pangan terpenting dalam kaitannya dengan nutrisi dan asupan kalori manusia, menyediakan lebih dari seperlima kalori yang dikonsumsi manusia di seluruh dunia. Ada banyak jenis beras dan preferensi kuliner cenderung bervariasi di setiap daerah. Metode tradisional untuk bercocok tanam padi adalah membanjiri sawah saat, atau setelah, menanam bibit muda. Metode sederhana ini membutuhkan perencanaan irigasi yang baik tetapi mengurangi pertumbuhan tanaman gulma dan hama yang kurang kuat yang tidak memiliki kondisi pertumbuhan terendam, dan mencegah hama. Meskipun penggenangan tidak wajib untuk menanam padi, semua metode irigasi lainnya memerlukan upaya yang lebih tinggi dalam pengendalian gulma dan hama selama periode pertumbuhan dan pendekatan yang berbeda untuk pemupukan tanah. Padi, monokotil, biasanya ditanam sebagai tanaman tahunan, meskipun di daerah tropis dapat bertahan hidup sebagai tanaman tahunan dan dapat menghasilkan tanaman ratun hingga 30 tahun. Budidaya padi sangat cocok untuk negara dan wilayah dengan biaya tenaga kerja rendah dan curah hujan tinggi, karena padat karya untuk bercocok tanam dan membutuhkan banyak air. Namun demikian, padi praktis dapat ditanam di mana saja, bahkan di daerah perbukitan atau pegunungan yang terjal dengan menggunakan sistem teras pengatur air. Meskipun spesies induknya berasal dari Asia dan beberapa bagian Afrika, perdagangan dan ekspor selama berabad-abad telah menjadikannya hal yang biasa di banyak budaya di seluruh dunia. Produksi dan konsumsi beras diperkirakan bertanggung jawab atas 4% emisi gas rumah kaca global pada tahun 2010.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen">
+        <rdfs:abstract xml:lang="id">Patogen tanaman adalah organisme yang menyebabkan penyakit pada tanaman. Mereka dapat berupa bakteri, jamur, virus, atau nematoda parasitik yang menginfeksi dan merusak jaringan tanaman. Patogen tanaman dapat mengganggu pertumbuhan, mengubah fungsi fisiologis, menyebabkan gejala penyakit, dan mengurangi hasil panen tanaman tersebut.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama">
+        <rdfs:abstract xml:lang="id">Pengendalian hama adalah pengaturan atau pengelolaan spesies yang didefinisikan sebagai hama; setiap hewan, tumbuhan atau jamur yang berdampak buruk pada aktivitas manusia atau lingkungan. Tanggapan manusia tergantung pada pentingnya kerusakan yang dilakukan dan berkisar dari toleransi, melalui pencegahan dan pengelolaan, hingga upaya untuk memberantas hama sepenuhnya. Tindakan pengendalian hama dapat dilakukan sebagai bagian dari strategi pengelolaan hama terpadu. Di bidang pertanian, hama dicegah dengan cara mekanis, budaya, kimia dan biologi. Membajak dan mengolah tanah sebelum menabur mengurangi beban hama, dan rotasi tanaman membantu mengurangi penumpukan spesies hama tertentu. Kepedulian terhadap lingkungan berarti membatasi penggunaan pestisida demi metode lain. Hal ini dapat dicapai dengan memantau tanaman, hanya menggunakan pestisida jika diperlukan, dan dengan menanam varietas dan tanaman yang tahan terhadap hama. Jika memungkinkan, cara biologis digunakan, mendorong musuh alami hama dan memasukkan predator atau parasit yang sesuai. Di rumah dan lingkungan perkotaan, hama adalah hewan pengerat, burung, serangga, dan organisme lain yang berbagi habitat dengan manusia, dan memakan dan/atau merusak harta benda. Pengendalian hama ini diupayakan melalui pengucilan atau karantina, penolakan, penghilangan fisik atau cara kimia. Sebagai alternatif, berbagai metode pengendalian biologis dapat digunakan termasuk program sterilisasi.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit">
+        <rdfs:abstract xml:lang="id">Penyakit tanaman adalah gangguan atau kelainan yang terjadi pada tanaman akibat serangan patogen, seperti jamur, bakteri, virus, atau nematoda. Gejala penyakit tanaman dapat berupa bercak pada daun, pembusukan akar, layu, kematangan yang terganggu, atau bahkan kematian tanaman. Penyakit tanaman dapat menyebabkan penurunan pertumbuhan, kerugian hasil panen, dan mengganggu stabilitas agroekosistem. Pengendalian penyakit tanaman melibatkan penerapan praktik budidaya yang baik, penggunaan varietas tahan penyakit, sanitasi lahan, dan penggunaan fungisida atau pestisida yang sesuai.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+        <rdfs:abstract xml:lang="id">Penyakit akar putih, juga dikenal sebagai penyakit akar putih atau root rot, adalah kondisi patologis yang menyerang sistem akar tanaman. Meskipun penyakit ini umumnya terkait dengan tanaman hortikultura, namun terdapat beberapa penyakit akar putih yang dapat mempengaruhi tanaman padi. Salah satu contohnya adalah penyakit akar putih padi, yang disebabkan oleh jamur biner, yaitu Rhizoctonia solani dan Pythium spp. Penyakit ini umumnya terjadi dalam kondisi tanah yang lembab dan suhu yang tinggi.</rdfs:abstract>
+        <rdfs:comment xml:lang="en">Sheath Rot</rdfs:comment>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+        <rdfs:abstract xml:lang="id">Penyakit bercak bakteri pada padi disebabkan oleh bakteri Xanthomonas oryzae pv. oryzae. Gejala penyakit ini meliputi adanya bercak berwarna coklat-hijau pada daun, batang, atau malai padi. Bercak-barcak tersebut dapat membesar dan menggabung, menyebabkan daun mengering dan malai padi tidak berkembang dengan baik. Penyakit bercak bakteri padi dapat menyebabkan penurunan hasil panen yang signifikan jika tidak dikendalikan dengan baik melalui penggunaan varietas tahan penyakit, praktik sanitasi yang baik, dan penggunaan fungisida atau bakterisida yang sesuai.</rdfs:abstract>
+        <rdfs:comment xml:lang="en">Bacterial Leaf Streak</rdfs:comment>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Besar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Besar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Helaian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Helaian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Merah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Merah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Blast_Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Blast_Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Akar_Batang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Akar_Batang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Batang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Batang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Biji_Helaian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Biji_Helaian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Buah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Buah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir_Tepung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Bulir_Tepung">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Pangkal_Batang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Busuk_Pangkal_Batang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Cendawan_Charcoal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Cendawan_Charcoal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Fusarium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Fusarium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Gulma_Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Gulma_Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Upih -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Hawar_Upih">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Helaian_Merah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Helaian_Merah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Jantung_Bakteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Jantung_Bakteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Akar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Akar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Karat_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Gugur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Gugur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Hampa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Hampa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Panjang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kerdil_Panjang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Keriput_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Keriput_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Klorosis_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Klorosis_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Cekaman_Suhu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Cekaman_Suhu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Helaian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Helaian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tertular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tertular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tungro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Kuning_Tungro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Akar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Akar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Bakteri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Layu_Bakteri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Lelah_Tanah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Lelah_Tanah">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Mottle_Strip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Mottle_Strip">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit"/>
+        <rdfs:abstract xml:lang="id">Penyakit padi adalah gangguan atau kelainan yang terjadi pada tanaman padi akibat serangan patogen seperti jamur, bakteri, atau virus. Gejala penyakit padi dapat berupa bercak pada daun, rebahnya malai padi, atau kerusakan pada akar dan batang. Penyakit padi dapat menyebabkan penurunan hasil panen, kerugian ekonomi, dan mengancam keberlanjutan produksi padi.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Patah_Batang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Patah_Batang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Batang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Batang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Biji -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Biji">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Bulir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Bulir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Malai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Malai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Panjang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Panjang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Tangkai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Penyusutan_Tangkai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Kuning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Kuning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Padi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Rebah_Padi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Akar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Akar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Daun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Reput_Daun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Serpihan_Bulir -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Serpihan_Bulir">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Tungro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Tungro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Ulat_Grayak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Ulat_Grayak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Padi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit">
+        <rdfs:abstract xml:lang="id">Perawatan penyakit tanaman melibatkan beberapa langkah penting. Pertama, identifikasi jenis penyakit yang terjadi pada tanaman untuk menentukan langkah-langkah pengendalian yang sesuai. Kedua, terapkan praktik budidaya yang baik, seperti sanitasi lahan, pengelolaan kelembaban yang tepat, dan pemilihan varietas yang tahan terhadap penyakit. Ketiga, jika diperlukan, gunakan bahan pengendali penyakit seperti fungisida, bakterisida, atau virusida sesuai dengan petunjuk penggunaan yang tepat dan memperhatikan keamanan serta dampak lingkungan yang mungkin timbul.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pestisida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pestisida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pengendalian_Hama"/>
+        <rdfs:abstract>Pestisida adalah zat yang dimaksudkan untuk mengendalikan hama. Ini termasuk herbisida, insektisida, nematisida, moluskisida, piscisida, avicide, rodentisida, bakterisida, penolak serangga, penolak hewan, mikrobisida, fungisida, dan lampricide. Yang paling umum adalah herbisida yang mencapai sekitar 80% dari semua penggunaan pestisida. Sebagian besar pestisida dimaksudkan untuk berfungsi sebagai produk perlindungan tanaman (juga dikenal sebagai produk perlindungan tanaman), yang pada umumnya melindungi tanaman dari gulma, jamur, atau serangga. Sebagai contoh, jamur Alternaria solani digunakan untuk memerangi gulma air Salvinia. Secara umum, pestisida adalah bahan kimia (seperti karbamat) atau agen biologis (seperti virus, bakteri, atau jamur) yang menghalangi, melumpuhkan, membunuh, atau menghambat hama. Hama sasaran dapat mencakup serangga, patogen tanaman, gulma, moluska, burung, mamalia, ikan, nematoda (cacing gelang), dan mikroba yang merusak properti, menyebabkan gangguan, atau menyebarkan penyakit, atau merupakan vektor penyakit. Seiring dengan manfaat tersebut, pestisida juga memiliki kelemahan, seperti potensi toksisitas terhadap manusia dan spesies lainnya.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Pestisida"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Tanaman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Tanaman">
+        <rdfs:abstract xml:lang="id">Tanaman adalah organisme hidup yang termasuk dalam kerajaan Plantae dan memiliki kemampuan untuk fotosintesis. Mereka dapat tumbuh dan berkembang di berbagai lingkungan, baik di darat maupun di air. Tanaman memiliki beragam bentuk, ukuran, dan fungsi, mulai dari tumbuhan kecil hingga pohon besar, dan berperan penting dalam ekosistem sebagai produsen utama dan penyedia makanan bagi organisme lain. Tanaman juga memiliki nilai ekonomi yang tinggi sebagai sumber pangan, bahan baku industri, obat-obatan, dan keindahan estetika dalam lanskap.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Tanaman"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Azoxystrobin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Azoxystrobin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Azoxystrobin adalah bahan aktif fungisida yang digunakan untuk mengendalikan berbagai penyakit jamur pada tanaman. Fungisida dengan kandungan azoxystrobin bekerja dengan menghambat respirasi mitokondria pada jamur penyebab penyakit, sehingga menghentikan pertumbuhan dan perkembangbiakan mereka. Penggunaan azoxystrobin harus dilakukan sesuai petunjuk dan dosis yang ditentukan, serta memperhatikan waktu aplikasi yang tepat untuk mencapai efektivitas yang maksimal dalam pengendalian penyakit tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Azoxystrobin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Metalaxyl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Metalaxyl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Metalaxyl adalah bahan aktif fungisida yang digunakan untuk mengendalikan penyakit jamur pada tanaman. Fungisida dengan kandungan metalaxyl efektif terhadap jamur patogen seperti Pythium spp. dan Phytophthora spp. Metalaxyl bekerja dengan menghambat pertumbuhan dan perkembangbiakan jamur penyebab penyakit, sehingga membantu melindungi tanaman dari infeksi dan kerusakan yang disebabkan oleh jamur tersebut. Penting untuk mengikuti petunjuk penggunaan dan dosis yang direkomendasikan serta melakukan aplikasi pada waktu yang tepat untuk mencapai efektivitas optimal dalam pengendalian penyakit tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Metalaxyl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Propamocarb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Propamocarb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Propamocarb adalah bahan aktif fungisida yang digunakan untuk mengendalikan penyakit jamur pada tanaman. Fungisida dengan kandungan propamocarb efektif dalam mengendalikan jamur patogen seperti Pythium spp. Propamocarb bekerja dengan menghambat pertumbuhan dan perkembangbiakan jamur penyebab penyakit, sehingga melindungi tanaman dari infeksi dan kerusakan yang disebabkan oleh jamur tersebut. Penting untuk mengikuti petunjuk penggunaan yang tepat dan dosis yang direkomendasikan serta melakukan aplikasi pada waktu yang sesuai untuk mencapai efektivitas maksimal dalam pengendalian penyakit tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Propamocarb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Trifloxystrobin_dan_Tebuconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Trifloxystrobin_dan_Tebuconazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Trifloxystrobin + Tebuconazole adalah kombinasi dua bahan aktif fungisida yang digunakan untuk mengendalikan penyakit jamur pada tanaman. Kombinasi ini efektif dalam melawan berbagai penyakit jamur, termasuk yang disebabkan oleh Rhizoctonia solani. Trifloxystrobin bekerja dengan menghambat pernapasan mitokondria jamur, sedangkan tebuconazole menghambat biosintesis ergosterol yang penting bagi integritas membran sel jamur. Penggunaan kombinasi trifloxystrobin + tebuconazole harus mengikuti petunjuk penggunaan yang tepat dan dosis yang direkomendasikan untuk mencapai pengendalian penyakit tanaman yang optimal.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Fungisida_Trifloxystrobin_dan_Tebuconazole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_bercak_berwarna_coklat-hijau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_bercak_berwarna_coklat-hijau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_bercak_berwarna_coklat-hijau"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_daun_mengering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_daun_mengering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_kerontokan_tanaman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_kerontokan_tanaman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Gejala kerontokan tanaman adalah kondisi di mana tanaman mengalami kehilangan daun atau bagian tanaman lainnya secara berlebihan. Hal ini dapat terjadi akibat berbagai faktor, seperti penyakit, serangan hama, kekurangan nutrisi, kondisi lingkungan yang tidak sesuai, atau stres tanaman. Gejala kerontokan tanaman umumnya ditandai dengan penurunan massa daun, daun yang kuning atau mengering, serta penurunan pertumbuhan dan produktivitas tanaman. Identifikasi penyebab yang mendasari dan pengelolaan yang tepat diperlukan untuk mengatasi gejala kerontokan tanaman dan memulihkan kondisi tanaman yang sehat.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_kerontokan_tanaman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_pembusukan_akar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_pembusukan_akar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Gejala pembusukan akar pada tanaman umumnya ditandai dengan perubahan warna dan tekstur akar yang normal menjadi lembek, lunak, atau berwarna coklat kehitaman. Akar yang terkena pembusukan cenderung mudah lepas dari tanaman saat dipegang. Selain itu, gejala lainnya meliputi adanya bau busuk yang kuat, penurunan pertumbuhan tanaman, serta daun yang layu atau menguning karena kurangnya penyerapan air dan nutrisi oleh akar yang rusak. Identifikasi penyebab pembusukan akar yang mendasari dan pengelolaan yang tepat diperlukan untuk mencegah kerusakan lebih lanjut pada sistem akar tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_pembusukan_akar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_hasil_panen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_hasil_panen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+        <rdfs:abstract xml:lang="id">Penurunan hasil panen adalah kondisi di mana produksi tanaman menurun secara signifikan dibandingkan dengan ekspektasi atau potensi maksimalnya. Hal ini dapat disebabkan oleh berbagai faktor, seperti serangan hama dan penyakit tanaman, kondisi cuaca yang tidak menguntungkan, atau praktik budidaya yang tidak optimal. Penurunan hasil panen dapat berdampak negatif pada ketersediaan pangan, pendapatan petani, dan pasokan produk pertanian secara keseluruhan.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_hasil_panen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_pertumbuhan_tanaman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_pertumbuhan_tanaman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Penurunan pertumbuhan tanaman adalah kondisi di mana tanaman mengalami penghambatan atau penurunan dalam pertumbuhannya secara keseluruhan. Gejalanya meliputi ukuran tanaman yang lebih kecil dari yang seharusnya, pertumbuhan yang lambat, dan daun yang lebih kecil atau kurang rimbun. Penurunan pertumbuhan tanaman dapat disebabkan oleh berbagai faktor, seperti kekurangan nutrisi, stres lingkungan, serangan hama atau penyakit, atau gangguan akar. Identifikasi penyebab yang mendasari dan pengelolaan yang tepat diperlukan untuk memulihkan pertumbuhan tanaman yang optimal.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_penurunan_pertumbuhan_tanaman"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_perubahan_warna_akar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_perubahan_warna_akar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Perubahan warna akar pada tanaman dapat menunjukkan adanya kondisi yang tidak normal. Salah satu perubahan warna yang umum adalah perubahan menjadi coklat atau hitam, yang dapat mengindikasikan adanya pembusukan atau infeksi jamur pada akar. Selain itu, perubahan warna akar menjadi kuning atau keputihan juga bisa menjadi tanda adanya gangguan pada akar, seperti akumulasi zat beracun atau kekurangan oksigen dalam substrat tanah. Identifikasi perubahan warna akar ini penting untuk mendiagnosis masalah yang mendasarinya dan mengambil tindakan yang tepat untuk mengatasi kondisi tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Gejala_perubahan_warna_akar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Pythium_spp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Pythium_spp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Pythium spp. adalah genus jamur patogen yang dapat menyebabkan penyakit pada tanaman. Mereka termasuk dalam kelompok oomycetes atau jamur air, dan sering terkait dengan penyakit akar busuk pada tanaman. Pythium spp. dapat menginfeksi akar, batang, dan bagian bawah tanaman, menyebabkan pembusukan, layu, dan kematian tanaman jika tidak dikendalikan dengan baik.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Pythium_spp"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Rhizoctonia_solani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Rhizoctonia_solani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Akar_Putih"/>
+        <rdfs:abstract xml:lang="id">Rhizoctonia solani adalah jamur patogen tanah yang menyebabkan penyakit akar putih pada tanaman. Jamur ini dapat menginfeksi berbagai tanaman, termasuk padi, jagung, gandum, dan sayuran. Infeksi Rhizoctonia solani menyebabkan pembusukan akar, pembentukan lesi pada batang, dan penurunan pertumbuhan tanaman jika tidak ditangani dengan tepat.</rdfs:abstract>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Rhizoctonia_solani"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Xanthomonas_oryzae_pv._oryzae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Xanthomonas_oryzae_pv._oryzae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Penyakit_Bercak_Bakteri"/>
+        <rdfs:abstract xml:lang="id">Xanthomonas oryzae pv. oryzae adalah bakteri patogen yang menyebabkan penyakit bercak bakteri pada tanaman padi. Bakteri ini menyerang jaringan tanaman padi dan menginfeksi daun, batang, dan malai padi. Xanthomonas oryzae pv. oryzae menyebabkan pembentukan bercak berwarna coklat pada tanaman padi, yang dapat menyebabkan kerusakan pada daun, batang, dan malai, serta mengurangi hasil panen padi jika tidak dikendalikan dengan baik. Pengendalian penyakit ini melibatkan penerapan praktik budidaya yang baik, penggunaan varietas tahan penyakit, dan penggunaan fungisida atau bakterisida yang sesuai.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Patogen_Xanthomonas_oryzae_pv._oryzae"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Bercak_Bakteri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Bercak_Bakteri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit"/>
+        <rdfs:abstract xml:lang="id">1. Pemilihan varietas tahan: Gunakan varietas padi yang memiliki ketahanan terhadap penyakit bercak bakteri. Varitas yang tahan memiliki kemampuan lebih baik dalam melawan infeksi bakteri dan mengurangi kerusakan pada tanaman.
+
+2. Praktik sanitasi yang baik: Membersihkan sisa-sisa tanaman yang terinfeksi, mengelola gulma dengan baik, dan menjaga kebersihan lahan pertanian. Praktik sanitasi yang baik membantu mengurangi populasi bakteri dan potensi penyebaran penyakit.
+
+3. Penggunaan agen pengendali biologi: Beberapa agen pengendali biologi yang mengandung bakteri antagonis dapat digunakan untuk mengendalikan bakteri penyebab bercak bakteri. Agen ini bersaing dengan bakteri patogen, membantu menghambat pertumbuhan mereka, dan mengurangi gejala penyakit.
+
+4.Penggunaan fungisida atau bakterisida: Jika infeksi bercak bakteri sudah parah, penggunaan fungisida atau bakterisida yang sesuai dapat menjadi pilihan pengendalian. Penting untuk memilih produk yang direkomendasikan untuk pengendalian bercak bakteri pada padi, dan mengikuti petunjuk penggunaan yang tepat.
+
+5. Pengaturan irigasi: Mengatur irigasi yang tepat juga penting dalam pengendalian penyakit bercak bakteri. Mencegah terlalu basahnya lingkungan pertumbuhan tanaman dapat membantu mengurangi penyebaran bakteri dan perkembangan penyakit.
+
+6. Rotasi tanaman: Melakukan rotasi tanaman secara teratur dapat membantu mengurangi risiko infeksi bercak bakteri. Menghindari penanaman berkelanjutan padi pada lokasi yang sama dapat meminimalkan akumulasi patogen dan membantu menjaga kesehatan tanaman.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Bercak_Bakteri"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_akar_putih -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_akar_putih">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_Penyakit"/>
+        <rdfs:abstract xml:lang="id">1. Menggunakan benih yang sehat dan bebas dari patogen penyebab penyakit.
+2. Menjaga kebersihan lahan dan sanitasi yang baik untuk mencegah penyebaran patogen.
+3. Memastikan drainase yang baik pada area pertanaman untuk mengurangi kelembaban dan kelebihan air.
+4. Menerapkan rotasi tanaman dengan spesies yang tidak rentan terhadap penyakit akar putih.
+5. Menggunakan metode pengendalian hayati dengan menggunakan agen hayati yang menghambat pertumbuhan patogen.
+6. Jika diperlukan, penggunaan fungisida yang sesuai untuk mengendalikan penyakit.</rdfs:abstract>
+        <rdfs:label rdf:resource="http://www.semanticweb.org/Ariful/ontologies/2023/06/OntologiHamaPenyakitPadi#Perawatan_akar_putih"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
